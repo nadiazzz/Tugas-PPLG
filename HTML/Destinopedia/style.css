@@ -1,0 +1,297 @@
+body {
+    background-color: #f5f5dc;
+    margin: 15px;
+}
+
+/*Nav bar dan logo*/
+.warna1{
+    color: #eb7347;
+}
+
+.warna2{
+    color: black;
+}
+
+nav {
+    display: flex;
+    
+    align-items: center;
+   
+}
+
+nav div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav ul{
+    display: flex;
+    margin-left: 300px;
+    gap: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 50px;
+}
+
+nav ul li a:hover{
+    color: #eb7347;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+/*BANNER*/
+.banner1 img{
+    width: 1230px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.banner2 img{
+    width: 1230px;
+}
+
+/*TOP DESTINANTION*/
+.top{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.destop{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.topimg .topcard {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.topimg .topcard a img {
+    width: 230px;
+    border-radius: 20px; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.topimg .topcard a:hover{
+    transform: scale(1.05);
+}
+
+/*RECENT ARTICLES*/
+
+.article{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.article1 {
+    display: flex;
+    gap: 50px;
+}
+
+.arcimg img{
+    width: 260px;
+    border-radius: 7px;
+}
+
+.stories a button{
+    padding: 10px 23px;
+    background-color: #eb7347;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.article .article1{
+    margin-bottom: 10px;
+}
+
+/*MOTTO ABOUT*/
+.motto {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/*RATING ABOUT*/
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*LAYANAN ABOUT*/
+.layanan {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.layanan .layanan1 .layananimg img{
+    width: 180px;
+    margin-left: 13%;
+
+}
+
+.layanan .layanan1 p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.layanan .layanan2 .layananimg img{
+    width: 180px;
+    margin-left: 12%;
+    margin-top: 10px;
+}
+
+.layanan .layanan2 p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*WHY ABOUT*/
+.why img{
+    width: 1210px;
+}
+
+/*FOOTER*/
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #eb7347;
+    border-radius: 5px;
+}
+
+.footer-section{
+    max-width: 200%;
+    padding-top: 10px;
+    color: #f5f5dc;
+}
+
+.footer-section h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li{
+    margin-bottom: 5px;
+}
+
+.footer-section a{
+    color: #f5f5dc;
+    text-decoration: none;
+}
+
+.footer-section a:hover{
+    text-decoration: underline;
+}
+
+/*DESTINATIONS*/
+.place {
+    margin-top: 10px;
+}
+
+.place .placecard {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 40px;
+}
+
+.place .placecard a img {
+    width: 230px;
+    border-radius: 20px; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.place .placecard a:hover{
+    transform: scale(1.05);
+}
+
+
+/*COUNTRY REFERENCE*/
+.des {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.des .desteks h1{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.des .desteks p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.des .desimg img{
+    width: 275px;
+    border-radius: 5px;
+}
+
+/*COUNTRY CARD*/
+.negara {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.negara .teksnegara h1{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.negara .teksnegara p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.negara .imgnegara img{
+    width: 280px;
+    border-radius: 5px;
+}
+
+/*COUNTRY REFERENCE*/
+.reference{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.imgrefer img{
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgrefer a img:hover{
+    transform: scale(1.05);
+}
