@@ -1,10 +1,10 @@
 <?php
-$uangtabungan = 3000000;
-$uangjajan = 1000000;
+$uangtabungan = 1000000;
+$tokoCamera = true;
 
-if ($uangtabungan >= 2500000 && $uangjajan >= 900000 ){
+if ($uangtabungan >= 2500000 && $tokoCamera ){
     echo "Gas pergi beli digicam";
 } else {
-    echo "Beli sepatu aja";
+    echo "Pulang aja Nangess";
 }
 ?>
